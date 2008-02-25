@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                re-engine-TRE
-version:             0.03
+version:             0.04
 abstract:            TRE regular expression engine
 license:             perl
 author:              
