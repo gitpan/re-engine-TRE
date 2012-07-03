@@ -1,0 +1,13 @@
+Changelog for re-engine-TRE
+
+0.05 2012-07-03T21:10:47
+ [Stanislaw Pusep <stanislav.poussep@buscapecompany.com>]
+ - Dist::Zillified
+
+ - version bump
+
+ - compatible with Perl > v5.10
+
+ - libtre upgraded to 0.8.0
+
+

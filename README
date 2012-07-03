@@ -1,0 +1,29 @@
+NAME
+    re::engine::TRE - TRE regular expression engine
+
+VERSION
+    version 0.05
+
+SYNOPSIS
+        use re::engine::TRE;
+
+        if ("mooh!" =~ /\([mo]*\)/) {
+            say $1; # "moo"
+        }
+
+DESCRIPTION
+    Replaces perl's regex engine in a given lexical scope with POSIX regular
+    expressions provided by the TRE regular expression library. tre-0.8.0 is
+    shipped with this module.
+
+AUTHORS
+    *   Ævar Arnfjörð Bjarmason <avar@cpan.org>
+
+    *   Stanislaw Pusep <stas@sysd.org>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2012 by Ævar Arnfjörð Bjarmason.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+

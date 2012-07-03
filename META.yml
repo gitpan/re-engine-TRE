@@ -1,13 +1,29 @@
---- #YAML:1.0
-name:                re-engine-TRE
-version:             0.04
-abstract:            TRE regular expression engine
-license:             perl
-author:              
-    - Ævar Arnfjörð Bjarmason <avar@cpan.org>
-generated_by:        ExtUtils::MakeMaker version 6.42
-distribution_type:   module
-requires:     
+---
+abstract: 'TRE regular expression engine'
+author:
+  - 'Ævar Arnfjörð Bjarmason <avar@cpan.org>'
+  - 'Stanislaw Pusep <stas@sysd.org>'
+build_requires:
+  File::Find: 0
+  File::Temp: 0
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300020, CPAN::Meta::Converter version 2.120921'
+license: perl
 meta-spec:
-    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
-    version: 1.3
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: re-engine-TRE
+requires:
+  XSLoader: 0
+  perl: 5.010
+  strict: 0
+  utf8: 0
+  warnings: 0
+resources:
+  bugtracker: https://github.com/creaktive/re-engine-tre/issues
+  homepage: https://github.com/creaktive/re-engine-tre
+  repository: git://github.com/creaktive/re-engine-tre.git
+version: 0.05
