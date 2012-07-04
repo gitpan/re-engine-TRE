@@ -1,6 +1,15 @@
 Changelog for re-engine-TRE
 
-0.05 2012-07-03T21:10:47
+0.06 2012-07-04T18:19:58
+ [Stanislaw Pusep <stanislav.poussep@buscapecompany.com>]
+ - documentation enhancement
+
+ - approximate matching tests
+
+ - use approximate matching (configurable via import options)
+
+
+v0.05 2012-07-03T21:09:25
  [Stanislaw Pusep <stanislav.poussep@buscapecompany.com>]
  - Dist::Zillified
 

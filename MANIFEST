@@ -12,6 +12,7 @@ inc/TREMakeMaker.pm
 lib/re/engine/TRE.pm
 perlcritic.rc
 t/00-compile.t
+t/amatch.t
 t/author-critic.t
 t/author-test-eol.t
 t/captures.t
@@ -38,6 +39,7 @@ t/s.t
 t/split-null.t
 t/split.t
 t/subexp.t
+t/words
 tre/LICENSE
 tre/Makefile.PL
 tre/config.h

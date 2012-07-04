@@ -22,12 +22,13 @@ my %WriteMakefileArgs = (
   'LICENSE' => 'perl',
   'NAME' => 're::engine::TRE',
   'PREREQ_PM' => {
+    'Scalar::Util' => '0',
     'XSLoader' => '0',
     'strict' => '0',
     'utf8' => '0',
     'warnings' => '0'
   },
-  'VERSION' => '0.05',
+  'VERSION' => '0.06',
   'test' => {
     'TESTS' => 't/*.t'
   }

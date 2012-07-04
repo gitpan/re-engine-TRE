@@ -17,6 +17,7 @@ meta-spec:
   version: 1.4
 name: re-engine-TRE
 requires:
+  Scalar::Util: 0
   XSLoader: 0
   perl: 5.010
   strict: 0
@@ -26,4 +27,4 @@ resources:
   bugtracker: https://github.com/creaktive/re-engine-tre/issues
   homepage: https://github.com/creaktive/re-engine-tre
   repository: git://github.com/creaktive/re-engine-tre.git
-version: 0.05
+version: 0.06
