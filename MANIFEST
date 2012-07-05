@@ -43,6 +43,7 @@ t/words
 tre/LICENSE
 tre/Makefile.PL
 tre/config.h
+tre/gettext.h
 tre/regcomp.c
 tre/regerror.c
 tre/regex.h
