@@ -18,9 +18,12 @@ my %WriteMakefileArgs = (
   },
   'DISTNAME' => 're-engine-TRE',
   'EXE_FILES' => [],
-  'LDDLFLAGS' => '-shared tre/*.o',
+  'LIBS' => [
+    '-lintl'
+  ],
   'LICENSE' => 'perl',
   'NAME' => 're::engine::TRE',
+  'OBJECT' => 'tre/regcomp.o tre/regerror.o tre/regexec.o tre/tre-ast.o tre/tre-compile.o tre/tre-match-approx.o tre/tre-match-backtrack.o tre/tre-match-parallel.o tre/tre-mem.o tre/tre-parse.o tre/tre-stack.o tre/xmalloc.o TRE.o',
   'PREREQ_PM' => {
     'Scalar::Util' => '0',
     'XSLoader' => '0',
@@ -28,7 +31,7 @@ my %WriteMakefileArgs = (
     'utf8' => '0',
     'warnings' => '0'
   },
-  'VERSION' => '0.07',
+  'VERSION' => '0.08',
   'test' => {
     'TESTS' => 't/*.t'
   }

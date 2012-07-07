@@ -1,6 +1,17 @@
 Changelog for re-engine-TRE
 
-0.07 2012-07-05T14:48:13
+0.08 2012-07-07T14:32:55
+ [Stanislaw Pusep <creaktive@gmail.com>]
+ - version bump
+
+ - more compatible MakeMaker
+
+
+ [Stanislaw Pusep <stanislav.poussep@buscapecompany.com>]
+ - compatibility issues fixed
+
+
+v0.07 2012-07-05T14:48:04
  [Stanislaw Pusep <stanislav.poussep@buscapecompany.com>]
  - Perl 5.12 has no Perl_refcounted_he_fetch_pv()
 

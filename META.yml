@@ -27,4 +27,4 @@ resources:
   bugtracker: https://github.com/creaktive/re-engine-tre/issues
   homepage: https://github.com/creaktive/re-engine-tre
   repository: git://github.com/creaktive/re-engine-tre.git
-version: 0.07
+version: 0.08

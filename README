@@ -2,7 +2,7 @@ NAME
     re::engine::TRE - TRE regular expression engine
 
 VERSION
-    version 0.07
+    version 0.08
 
 SYNOPSIS
         use re::engine::TRE max_cost => 1;

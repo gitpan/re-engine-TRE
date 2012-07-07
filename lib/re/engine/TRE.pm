@@ -14,7 +14,7 @@ use XSLoader ();
 our @ISA = 'Regexp';
 
 BEGIN {
-    our $VERSION = '0.07'; # VERSION
+    our $VERSION = '0.08'; # VERSION
     XSLoader::load __PACKAGE__, $VERSION;
 }
 
@@ -64,7 +64,7 @@ re::engine::TRE - TRE regular expression engine
 
 =head1 VERSION
 
-version 0.07
+version 0.08
 
 =head1 SYNOPSIS
 
