@@ -14,7 +14,7 @@ use XSLoader ();
 our @ISA = 'Regexp';
 
 BEGIN {
-    our $VERSION = '0.08'; # VERSION
+    our $VERSION = '0.09'; # VERSION
     XSLoader::load __PACKAGE__, $VERSION;
 }
 
@@ -54,9 +54,10 @@ sub unimport {
 1;
 
 __END__
+
 =pod
 
-=encoding utf8
+=encoding UTF-8
 
 =head1 NAME
 
@@ -64,7 +65,7 @@ re::engine::TRE - TRE regular expression engine
 
 =head1 VERSION
 
-version 0.08
+version 0.09
 
 =head1 SYNOPSIS
 
@@ -156,26 +157,15 @@ L<String::Approx> (tests for approximate matching)
 
 =for Pod::Coverage ENGINE
 
-=head1 AUTHORS
-
-=over 4
-
-=item *
+=head1 AUTHOR
 
 Ævar Arnfjörð Bjarmason <avar@cpan.org>
 
-=item *
-
-Stanislaw Pusep <stas@sysd.org>
-
-=back
-
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2012 by Ævar Arnfjörð Bjarmason.
+This software is copyright (c) 2014 by Ævar Arnfjörð Bjarmason.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
